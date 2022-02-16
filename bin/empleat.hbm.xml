@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+  
+ <hibernate-mapping>  
+  <class name="Empleat" table="empleados">  
+    <id name="emp_no">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="apellido"></property>  
+    <property name="oficio"></property>
+	<property name="dir"></property> 
+	<property name="dept_no"></property> 
+	<property name="salario"></property>  
+	<property name="comision"></property>  
+	<property name="fecha_alt"></property>           
+  </class>             
+ </hibernate-mapping>  
